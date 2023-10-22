@@ -15,7 +15,7 @@ invalid_password = os.getenv("INVALID_PASSWORD")
 
 driver = webdriver.Chrome()
 
-login_url = "https://unsplash.com/login" 
+login_url = "https://www.saucedemo.com" 
 
 def perform_login(username, password):
     driver.get(login_url)
